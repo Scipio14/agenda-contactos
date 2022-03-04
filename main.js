@@ -18,4 +18,4 @@ btnAgregarTarea.addEventListener("click", () => {
   };
   guardarContacto(storage, contacto);
 });
-cargarContactos(storage);
+cargarContactos(storage, listadoTareas);
